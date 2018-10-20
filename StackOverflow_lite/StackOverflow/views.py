@@ -13,6 +13,11 @@ class QuestionsListView(generics.ListCreateAPIView):
     serializer_class = QuestionsSerializer
 
 class QuestionDetailView(generics.RetrieveAPIView):
-    
+    queryset = Questions.objects.all()
+    serializer_class = QuestionsSerializer
+
+class AnswersListView(generics.CreateAPIView):
+    queryset = Answers.objects.all()
+    serializer_class = AnswersSerializer
 
     
