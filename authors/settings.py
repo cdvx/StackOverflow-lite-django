@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'authors.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ah_backend', # os.path.join(BASE_DIR, 'Users/cdvx/Desktop/django-unchaned/tictactoe1'),
+        'NAME': 'ah_backend', 
         'USER': 'postgres',
         'PASSWORD': '',
         'HOST': 'localhost',
