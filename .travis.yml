@@ -7,6 +7,7 @@ python:
 # environment variables
 env:
   - DJANGO_ENV=Testing
+
 # command to install dependencies
 install:
   - pip install -r requirements.txt

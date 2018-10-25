@@ -164,4 +164,5 @@ NOSE_ARGS = [
     '--with-coverage',
     '--cover-package=authors',
     '--cover-tests'
+
 ]
