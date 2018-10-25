@@ -12,6 +12,6 @@ class ViewsTest(TestCase):
     def setUp(self):
         self.client = Client()
 
-    def test_ArticleView(self):
+    def test_AdminView(self):
         response = self.client.get('admin/')
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 404)
